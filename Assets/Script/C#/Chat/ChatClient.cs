@@ -1,12 +1,10 @@
-using System;
-using System.Net.Sockets;
 using System.Text;
+using System.Net.Sockets;
 using System.Threading;
-using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
-namespace ChatPracitce.Core
+namespace Practice.Chat
 {
     public class ChatClient : MonoBehaviour    //  サーバー接続を確認するためのクライアント
     {
